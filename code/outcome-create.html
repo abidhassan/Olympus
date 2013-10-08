@@ -1,0 +1,137 @@
+<html>
+<head>
+	<title>Outcome Create</title>
+	<script type="text/javascript" src = "jquery.js"></script>
+	<script type="text/javascript" src = "functions.js"></script>
+    <script type="text/javascript" src = "dist/js/bootstrap.js"></script>
+	<link rel = "stylesheet" type = "text/css" href = "mycss.css">
+	<link rel = "stylesheet" type = "text/css" href = "dist/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<script>alert($( window ).width())</script>-->
+
+</head>
+
+<body class = "outcome-create">
+<nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Contextize</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+    </form>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="outcome-create.html">Create</a></li>
+        <li><a href="#">Organize</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sriyansa <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </li>
+    </ul>
+    </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+	<div class="container">
+        <div class ="row">
+            <div class = "col-md-8">
+                <form>
+                    <input type="text" class="form-control input-lg" placeholder="Title">
+                </form>
+            </div>
+            <div class="col-md-4">
+                <button type="button" class="btn btn-default med-width pull-right"><a href="../Olympus/outcome-post-creation.html">SAVE</a></button>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class ="row">
+                    <div class = "col-md-4">
+                        <h5>Owner</h5>
+                    </div>
+                    <div class = "col-md-8">
+                    <form>
+                    <input type="text" class="form-control input-sm" placeholder="Enter username/email to change owner">
+                    </form>
+                    </div>
+                    <div class = "col-md-4">
+                        <h5>Type</h5>
+                    </div>
+                    <div class = "col-md-8">
+                        <div class="btn-group btn-group-justified bottom-margin">
+                            <a href="#" class="btn btn-default">Outcome</a>
+                            <a href="#" class="btn btn-default">Metric</a>
+                            <a href="#" class="btn btn-default">Collection</a>        
+                        </div>                                
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="std-quote hidden-xs">If the user is not on Olympus, enter the email of the intended owner. We will automatically send an invitation to claim ownership of this document</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class = "col-md-8">
+                <form>
+                    <textarea class="form-control" rows="8"></textarea>
+                </form>
+            </div>
+            <div class = "col-md-4">
+                <div class="std-quote hidden-xs">An outcome is a unit of work whose :<br>1.  Impact can be evaluated<br>2. Status is broadly communicated<br>Documents can be individual features, customer problems with associated solutions, strategic plans or any of your individual deliverables</div>
+            </div>
+        </div>
+
+        <div>       
+        <div class="row">
+            <div class = "col-md-8">
+                <form>
+                    <input type="text" class="form-control" placeholder="SECTION TITLE">
+                </form>
+            </div>            
+        </div>
+        <a href ="#" class = "remove-section-link pull-right">REMOVE SECTION</a>
+        <div class="row">
+            <div class="col-md-8">
+                <form>
+                    <textarea class="form-control" rows="4"></textarea>
+                </form>
+            </div>
+            <div class = "col-md-4">
+                <div class="std-quote hidden-xs">Sections are for you to structure your documents appropriately.<br>If you already have a document with the content of the section, just upload it here</div>
+            </div>
+        </div>
+        <p>OR</p>
+        <div class="row">
+            <div class = "col-md-3">
+                <h5>Upload a file</h5>
+            </div>
+            <div class="col-md-9">
+                <form action="#">
+                <input type="file">
+                <input type="submit" value="Upload">
+                </form>                    
+            </div>
+        </div>
+        </div>
+        <a href ="#" class = "add-section-link pull-right">NEW SECTION</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+.search-form{
+  width:100% !important;
+}
+
+.box-std{
+  border: 1px solid;
+}
+
+.splashpage .box-std{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+.homepage-box>.act-block1{
+  background-color: #c9c9c9;
+  min-height: 80px;
+  padding: 15px;
+}
+
+.homepage-box>.act-block2{
+  min-height: 160px;
+  border-bottom: 1px solid;
+  padding: 15px; 
+}
+
+.homepage-box>.act-block2 h3{
+  text-align:center; 
+}
+
+.bottom-margin{
+  margin-bottom: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.std-quote {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #eeeeee;
+  border-left: 0;
+  text-align: right;
+  font-size: small;
+}
+
+.outcome-edit-milestones select{
+  height:30px;
+  width: 150px;
+}
+
+.no-padding{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.med-width{
+  width: 140px;
+}
+
+@media (min-width: 992px) {
+  .box-std.large{
+    height: 520px;
+  }
+  .box-std.medium{
+    height: 340px;
+  }
+  .box-std.small{
+    height: 160px;
+  }
+  .splashpage .box-std.large h3, .splashpage .box-std.medium h3{
+    height: 100px;
+  } 
+  .splashpage .box-std.small h3{
+    height: 40px;
+  } 
+  .splashpage .box-std h4{
+    height: 80px;
+  }
+  .splashpage button{
+  margin-bottom: 30px;
+  }
+}
+
+

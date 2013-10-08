@@ -1,0 +1,32 @@
+An outcome is a unit of work whose :
+1.	Impact can be evaluated
+2. Status is broadly communicated
+
+Documents can be individual features, customer problems with associated solutions, strategic plans or any of your individual deliverables
+
+
+Sections are for you to structure your documents appropriately.
+If you already have a document with the content of the section, just upload it here
+
+[DESCRIPTION] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis odio vitae dui commodo commodo. Pellentesque a justo et erat accumsan molestie. Duis ut ultricies augue, necdictum odio. Aliquam erat volutpat.
+
+
+1. [QUESTION] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis odio vitae dui
+commodo commodo?[ANSWER] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis odio vitae dui
+commodo commodo. Pellentesque a justo et erat accumsan molestie. Duis ut ultricies augue, nec
+dictum odio. Aliquam erat volutpat. Phasellus ut porta est, at placerat metus. Etiam eget erat at justo
+vehicula aliquet. Fusce eleifend mi non augue sollicitudin, nec ultricies lacus sagittis. Ut a est eget
+
+
+ADD to existing or CREATE new collections
+MILESTONES
+Milestones are intermediate checkpoints towards
+the goals laid out in this document. Code Complete
+and User Acceptance are examples of milestones
+
+
+Influences are documents, metrics or collections whose outcomes affect or are affected by the outcome of this document. Strategy documents or Product Metrics are examples of influences
+
+Collections allow the grouping of documents under a common theme or idea. Product Roadmaps and Releases are examples of collections
+
+Milestones are intermediate checkpoints towards the goals laid out in this document. Code Complete and User Acceptance are examples of milestones

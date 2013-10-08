@@ -1,0 +1,129 @@
+<html>
+<head>
+	<title>Outcome Edit Milestones</title>
+	<script type="text/javascript" src = "jquery.js"></script>
+	<script type="text/javascript" src = "functions.js"></script>
+	<link rel = "stylesheet" type = "text/css" href = "mycss.css">
+	<link rel = "stylesheet" type = "text/css" href = "dist/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+    
+<body class = "outcome-edit-milestones">
+	<header class="navbar navbar-inverse bs-docs-nav" role="banner">    
+  	<div class="container">
+    	<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+	    	<form class="navbar-form navbar-left search-form" role="search">
+	    		<input type="text" class="form-control" placeholder="Search">
+    	    </form>
+    		<ul class="nav navbar-nav pull-right">
+        		<li>
+          			<a href="../Olympus/home.html">Home</a>
+        		</li>
+        		<li>
+          			<a href="../Olympus/outcome-create.html">Create</a>
+        		</li>
+        		<li class="active">
+          			<a href="../Olympus/sriyansa.html">Sriyansa</a>
+        		</li>
+      		</ul>
+    	</nav>
+  	</div>
+	</header>
+	<div class="container">
+        <div class ="col-md-12">
+            <div class ="row">
+                <div class = "col-md-8">
+                    <form>
+                        <input type="text" class="form-control input-lg" placeholder="Title">
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-6">
+                            <button type="button" class="btn btn-default btn-block">SAVE</button>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class ="row">
+                        <div class = "col-md-4">
+                            <h5>Owner</h5>
+                        </div>
+                        <div class = "col-md-8">
+                            <form>
+                                <input type="text" class="form-control input-sm" placeholder="Enter username/email to change owner">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="pull-right">EDIT DETAILS</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <div class ="row">
+                        <div class = "col-md-8 col-md-offset-4">
+                        <form>
+                            <input type="text" class="form-control" placeholder="MILESTONE NAME">
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-4">
+                            <form>
+                                <textarea class="form-control" rows="3">Describe what will be achieved by this</textarea>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="myquote">
+                        <p><small>Milestones are intermediate checkpoints towards the goals laid out in this document. Code Complete and User Acceptance are examples of milestones</small></p>
+                    </div>                            
+                </div>
+            </div>   
+
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-4">
+                            <select>
+                                <option value="status">Status</option>
+                                <option value="delayed">Delayed</option>
+                                <option value="onTime">On Time</option>
+                                <option value="toRelease">To Release</option>
+                            </select>                                      
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-4">
+                            <div id="datetimepicker2">
+                                <input type="date"></input>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="myquote">
+                        <p><small>Add dates when they are available with some confidence. Olympus will automatically track against these</small></p>
+                    </div>                            
+                </div>
+            </div>
+            <a href="#" class = "pull-right">NEW MILESTONE</a>  
+
+
+
+        </div>        
+    </div>
+</body>
+</html>

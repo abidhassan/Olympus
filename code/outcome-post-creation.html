@@ -1,0 +1,153 @@
+<html>
+<head>
+	<title>Outcome Post Create</title>
+	<script type="text/javascript" src = "jquery.js"></script>
+	<script type="text/javascript" src = "functions.js"></script>
+    <script type="text/javascript" src = "dist/js/bootstrap.js"></script>	
+    <link rel = "stylesheet" type = "text/css" href = "mycss.css">
+	<link rel = "stylesheet" type = "text/css" href = "dist/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body class = "outcome-post-creation">
+	
+<nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Contextize</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+    </form>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="outcome-create">Create</a></li>
+        <li><a href="#">Organize</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sriyansa <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </li>
+    </ul>
+    </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+
+
+	<div class="container">
+        <div class = "col-md-8">
+            <div class="box-std">
+                <div class="row">
+                    <div class = "col-md-8">
+                        <h4>NET STORAGE OBJECT VERSION1</h4>
+                    </div>
+                    <div class ="col-md-4">
+                        <h5>Owned by</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class = "col-md-8">                
+                        <a href="#">Link-Here</a>
+                    </div>
+                    <div class ="col-md-4">
+                        <p><a href="#">Share</a></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class = "col-md-8">
+                        <div class = "row">
+                            <div class="col-md-4">                
+                                <p>4 Shares</p>                           
+                            </div>
+                            <div class = "col-md-4">                
+                                <p>23 Conversations</p>                           
+                            </div> 
+                            <div class = "col-md-4">
+                                <p>1 Participant</p>
+                            </div>
+                        </div>
+                    </div>                                           
+                    <div class = "col-md-4">
+                        <p>Edit</p>
+                    </div>                 
+                </div>
+            </div>
+            <ul class="nav nav-pills nav-justified">
+                <li class="text-center"><button type="button" class="btn btn-default btn-block">DETAILS</button></li>
+                <li class="text-center"><button type="button" class="btn btn-default btn-block">MILESTONES</button></li>
+                <li class="text-center"><button type="button" class="btn btn-default btn-block">CONVERSATIONS</button></li>
+            </ul>
+
+            <p>[DESCRIPTION] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis odio vitae dui commodo commodo. Pellentesque a justo et erat accumsan molestie. Duis ut ultricies augue, necdictum odio. Aliquam erat volutpat.</p>
+            <div class="row">
+                <div class ="col-md-8">
+                    <hr>
+                </div>
+            </div>
+            <h4>ARCHITECTURE</h4>
+            <span class="glyphicon glyphicon-file"></span><a href="#">objectstore_arch.docx</a>
+            <div class="row">
+                <div class ="col-md-8">
+                    <hr>
+                </div>
+            </div>
+            <h4>FAQs</h4>
+            <p>1. [QUESTION] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis odio vitae dui
+            commodo commodo?<br>[ANSWER] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis odio vitae dui commodo commodo. Pellentesque a justo et erat accumsan molestie. Duis ut ultricies augue, nec dictum odio. Aliquam erat volutpat. Phasellus ut porta est, at placerat metus. Etiam eget erat at justovehicula aliquet. Fusce eleifend mi non augue sollicitudin, nec ultricies lacus sagittis. Ut a est eget...</p>
+        </div>
+        <div class = "col-md-4">
+            <div id="influences">
+            <h4 class="text-right">ADD INFLUENCES</h4>
+            <p class="text-right">Influences are documents, metrics or collections whose outcomes affect or are affected by the outcome of this document. Strategy documents or Product Metrics are examples of influences</p>
+            <p class="text-right"><a href="#" id="add-influences-link">ADD</a> existing or <a href="#" id="create-influences">CREATE</a> new influences</p>
+            </div>
+
+            
+            <div class = "hidden" id="expand-influence">
+
+                <div class="panel panel-default">
+                    <ul class="list-group">
+                        <li class="list-group-item"><input type="radio">Cras justo odio</li>
+                        <li class="list-group-item"><input type="radio">NetStorage Activity Based Billing</li>
+                        <li class="list-group-item"><input type="radio">Morbi leo risus</li>
+                        <li class="list-group-item"><input type="radio">Porta ac consectetur ac</li>
+                        <li class="list-group-item"><input type="radio">Vestibulum at eros</li>
+                    </ul>
+                </div>                
+            </div>
+
+            <div id="collections">
+            <h4 class="text-right">ADD COLLECTIONS</h4>
+            <p class="text-right">Collections allow the grouping of documents under a common theme or idea. Product Roadmaps and Releases are examples of collections</p>
+            <p class="text-right"><a href="#" id="add-collections">ADD</a> to existing or <a href="#">CREATE</a> new collections</p>
+            </div>
+            <div id="expand-collections">
+            </div>       
+            <div id="milestones">
+            <h4 class="text-right">ADD MILESTONES</h4>
+            <p class="text-right">Milestones are intermediate checkpoints towards the goals laid out in this document. Code Complete and User Acceptance are examples of milestones</p>
+            <p class="text-right"><a href="#" id="add-milestones">ADD</a> new milestones</p>
+            </div>
+            <div id="expand-milestones">
+            </div>                
+        </div>        
+    </div>
+</body>
+</html>
